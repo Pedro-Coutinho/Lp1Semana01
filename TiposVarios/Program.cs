@@ -36,6 +36,15 @@ namespace TiposVarios
             Console.WriteLine(unicode3);
             Console.WriteLine(unicode4);
 
+            //Reais
+            float myFloat = 0.1f;
+            double myDouble = 0.2f;
+            decimal myDecimal = 0.10f;
+
+            Console.WriteLine(myFloat);
+            Console.WriteLine(myDouble);
+            Console.WriteLine(myDecimal);
+
         }
     }
 }
