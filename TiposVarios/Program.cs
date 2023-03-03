@@ -45,6 +45,13 @@ namespace TiposVarios
             Console.WriteLine(myDouble);
             Console.WriteLine(myDecimal);
 
+            //Booleans
+            bool myTrue = true;
+            bool myFalse = false;
+
+            Console.WriteLine(myTrue);
+            Console.WriteLine(myFalse);
+
         }
     }
 }
