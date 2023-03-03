@@ -6,7 +6,18 @@ namespace ArgInt2Hex
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            bool isInt = false;
+            int n;
+            foreach(var arg in args)
+            {
+                isInt = int.TryParse(arg, out n);
+                if(isInt){
+                    Console.WriteLine($"Input int {n} in hex {n:x}");
+                }
+                else{
+                    Console.WriteLine($"Input {arg} is not a int");
+                }
+            }
         }
     }
 }
