@@ -7,11 +7,19 @@ namespace TiposVarios
         static void Main(string[] args)
         {
             //Inteiros
-            int myInt = 1;
-            uint myUInt = 2;
-            long myLong = 3;
-            ulong myULong = 4;
-
+            sbyte mySByte = 1;
+            byte myByte = 2;
+            short myShort = 3;
+            ushort myUShort = 4;
+            int myInt = 5;
+            uint myUInt = 6;
+            long myLong = 7;
+            ulong myULong = 8;
+            
+            Console.WriteLine(mySByte);
+            Console.WriteLine(myByte);
+            Console.WriteLine(myShort);
+            Console.WriteLine(myUShort);
             Console.WriteLine(myInt);
             Console.WriteLine(myUInt);
             Console.WriteLine(myLong);
@@ -27,6 +35,7 @@ namespace TiposVarios
             Console.WriteLine(unicode2);
             Console.WriteLine(unicode3);
             Console.WriteLine(unicode4);
+
         }
     }
 }
