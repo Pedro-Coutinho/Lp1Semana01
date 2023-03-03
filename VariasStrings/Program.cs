@@ -6,6 +6,9 @@ namespace VariasStrings
     {
         static void Main(string[] args)
         {
+            double xx = 0.12345f;
+            int ii = 18;
+
             string normalString1 = "This is a normal string with a new line \n";
             string verbatimString1 = @"This is a verbatim string with a new line \n";
             string normalString2 = "This is a normal string with a unicode \u2706";
@@ -40,6 +43,15 @@ namespace VariasStrings
             Console.WriteLine("This is a concatenated string + " + x);
             Console.WriteLine($"This is a interpolated String, x = {x}");
             Console.WriteLine(String.Format("This is a formated string, x = {0}, y = {1}",x,y));
+        
+
+            Console.WriteLine($"{xx:f2}");
+            Console.WriteLine($"{xx:p1}");
+
+            Console.WriteLine($"{ii:x}");
+            Console.WriteLine($"{ii:c}");
+        
+        
         }
     }
 }
