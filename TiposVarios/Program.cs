@@ -16,6 +16,17 @@ namespace TiposVarios
             Console.WriteLine(myUInt);
             Console.WriteLine(myLong);
             Console.WriteLine(myULong);
+
+            //Chars
+            char unicode1 = '\u2706';
+            char unicode2 = '\u2737';
+            char unicode3 = '\u216A';
+            char unicode4 = '\u2182';
+
+            Console.WriteLine(unicode1);
+            Console.WriteLine(unicode2);
+            Console.WriteLine(unicode3);
+            Console.WriteLine(unicode4);
         }
     }
 }
