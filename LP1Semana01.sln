@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiposVarios", "TiposVarios\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariasStrings", "VariasStrings\VariasStrings.csproj", "{D5C3350C-C31D-4D2C-B58E-01437AE8FD10}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArgInt2Hex", "ArgInt2Hex\ArgInt2Hex.csproj", "{890D974E-A396-465F-8E0E-E9AECD087FFE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{D5C3350C-C31D-4D2C-B58E-01437AE8FD10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5C3350C-C31D-4D2C-B58E-01437AE8FD10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5C3350C-C31D-4D2C-B58E-01437AE8FD10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{890D974E-A396-465F-8E0E-E9AECD087FFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{890D974E-A396-465F-8E0E-E9AECD087FFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{890D974E-A396-465F-8E0E-E9AECD087FFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{890D974E-A396-465F-8E0E-E9AECD087FFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
